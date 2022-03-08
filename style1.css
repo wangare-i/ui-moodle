@@ -1,0 +1,128 @@
+#page.container-fluid, #page.container-sm, #page.container-md, #page.container-lg, #page.container-xl {
+    padding: 2rem;
+}
+.container-fluid, .container-sm, .container-md, .container-lg, .container-xl {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+div {
+    display: block;
+}
+body {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+    margin: 0;
+    font-family: "Poppins",sans-serif;
+    font-size: .9375rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #131211;
+    text-align: center;
+    background-color:#ee1212;
+}
+.input-group-addon{
+    padding-top: 15px;
+    resize: vertical;
+    overflow:auto;
+   
+}
+
+.sign-up-btn{
+    padding-top: 15px;
+}
+input:not([type="image" i]) {
+    box-sizing: border-box;
+}
+user agent stylesheet
+input[type="submit" i] {
+    appearance: auto;
+    user-select: none;
+    white-space: pre;
+    align-items: flex-start;
+    text-align: center;
+    cursor: default;
+    box-sizing: border-box;
+    background-color: -internal-light-dark(rgb(239, 239, 239), rgb(59, 59, 59));
+    color: -internal-light-dark(black, white);
+    padding: 1px 6px;
+    border-width: 2px;
+    border-style: outset;
+    border-color: -internal-light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
+    border-image: initial;
+}
+user agent stylesheet
+input {
+    -webkit-writing-mode: horizontal-tb !important;
+    font-style:normal ;
+    font-variant-ligatures:contextual;
+    font-variant-caps:normal ;
+    font-variant-numeric: ;
+    font-variant-east-asian: ;
+    font-weight:200;
+    font-stretch:expanded;
+    font-size:medium ;
+    font-family:'Courier New', Courier, monospace;
+    text-rendering: auto;
+    color: -internal-light-dark(black, white);
+    letter-spacing: normal;
+    word-spacing: normal;
+    line-height: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    appearance: auto;
+    -webkit-rtl-ordering: logical;
+    cursor: text;
+    background-color: -internal-light-dark(rgb(255, 255, 255), rgb(59, 59, 59));
+    margin: 0em;
+    padding: 1px 2px;
+    border-width: 2px;
+    border-style: inset;
+    border-color: -internal-light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
+    border-image: initial;
+}
+.mform fieldset {
+    margin-left: 1.5rem;
+}
+.mform fieldset {
+    margin-bottom: 0.5rem;
+    border-bottom: 1px solid #dee2e6;
+}
+fieldset {
+    min-width: 0;
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+.col-md-3 {
+    flex: 0 0 20%;
+    max-width: 20%;
+    padding: 10px;
+}
+.btn-primary {
+    color: #fff;
+    background-color: #131316;
+    border-color: #131316;
+    padding: 8px;
+}
+legend {
+    font-size: calc(.96rem + .72vw);
+}
+legend {
+    padding-inline-start: 2px;
+    padding-inline-end: 2px;
+    border-width: initial;
+    border-style: none;
+    border-color: initial;
+    border-image: initial;
+}
